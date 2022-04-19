@@ -1,0 +1,31 @@
+.header {
+    background-image: url(../../Assets/background.svg);
+    height: 700px;
+}
+.custom-shape-divider-bottom-1650380102 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1650380102 svg {
+    position: relative;
+    display: block;
+    width: calc(153% + 1.3px);
+    height: 191px;
+}
+
+.custom-shape-divider-bottom-1650380102 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1650380102 svg {
+        width: calc(141% + 1.3px);
+        height: 116px;
+    }
+}
